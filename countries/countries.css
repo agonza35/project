@@ -1,0 +1,59 @@
+
+h2{
+    text-align: center;
+    font: italic;
+    padding-top: 5%;
+}
+#countries img{
+    height: 400px;
+    width: 400px;
+}
+
+#italy{
+    display: inline-block;
+    padding: 3%;
+}
+#france{
+    display: inline-block;
+    padding: 3%;
+}
+
+#greece{
+    display: inline-block;
+    padding: 3%;
+}
+
+#switzerland{
+    display: inline-block;
+    padding: 3%;
+}
+
+#hungrary{
+    display: inline-block;
+    padding: 3%;
+}
+
+#portugal{
+    display: inline-block;
+    padding: 3%;
+}
+
+h4{
+    display: block;
+}
+#img-text{
+    text-align: center;
+    border: 10px solid black;
+}
+
+#row-1{
+   text-align: center;
+}
+#row-2{
+    text-align: center;
+}
+#row-3{
+    text-align: center;
+}
+
+
