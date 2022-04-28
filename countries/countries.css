@@ -41,7 +41,7 @@ h2{
 h4{
     display: block;
 }
-#img-text{
+.img-text{
     text-align: center;
     border: 10px solid black;
 }

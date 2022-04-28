@@ -1,0 +1,37 @@
+
+img{
+    height: 600px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+#dish-image{
+    display: inline-block;
+    height: 200px;
+    width: 25%;
+}
+#dish-description{
+   display: inline-block;
+   width: 50%;
+}
+
+#related-links{
+    border: 10px solid black;
+    margin-inline-start: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 25%
+}
+
+a#related-links{
+    display: block;
+}
+
+/*
+#dish-row{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 10px;
+} */
