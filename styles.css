@@ -1,3 +1,4 @@
+/* Styling for the Navigation Bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -9,7 +10,6 @@ ul {
 }
 
 li {
-    /*float: right;*/
     display: inline-block;
 }
 
@@ -22,6 +22,7 @@ li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Created hovering abilities for navigation bar*/
 li a:hover:not(.active) {
     background-color: #FFF3D9;
 }
@@ -31,31 +32,26 @@ li a.active {
     background-color: #CD9E7D;
 }
 
-/* Image Overlay */
+/* Image Overlay For Links*/
 * {box-sizing: border-box;}
 
 #image_1 {
     position: relative;
     width: 30%;
- /* max-width: 300px;*/
 }
 
 #image_2 {
     position: relative;
     width: 30%;
-   /* max-width: 300px;*/
 }
 
 #image_3 {
     position: relative;
     width: 30%;
-   /* max-width: 300px;*/
 }
 
 .image {
   display: block;
-  /*width: 100%;
-  height: auto;*/
 }
 
 .overlay {
@@ -90,22 +86,6 @@ li a.active {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*.overlay3 {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}*/
-
 #image_1:hover .overlay {
     opacity: 1;
 }
@@ -136,10 +116,10 @@ p{
 }
 
 img{
-   /* border: 2px solid #414550;*/
     border-radius: 5%;
 }
 
+/* Styling top logo*/
 #logo{
     text-align: center;
     color: #CD9E7D;
@@ -147,8 +127,27 @@ img{
     font-family: fantasy;
 }
 
+/* Slight tweaks to navigation bar*/
 #navbar{
     padding-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Welcome statement in black box*/
+#welcome{
+    text-align: center;
+    font-size: 180%;
+    color: #414550;
+    border: #414550 solid 2px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Introducting current features*/
+#features{
+    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -166,6 +165,7 @@ img{
     margin-left: 15%;
 }
 
+/* Why We Made This heading*/
 #whywemade{
     text-align: center;
     margin-left: 10%;
@@ -173,12 +173,14 @@ img{
     padding-top: 10px;
 }
 
+/* Favorites Heading*/
 #favorites{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+/* General div box that hold all four favorite images*/
 #fav_box{
     margin-left: 10%;
     margin-right: 12%;
@@ -186,12 +188,14 @@ img{
     overflow: hidden;
 }
 
+/* Inner boxes of each image*/
 .inner_boxes{
     float: right;
     margin-left: 2%;
     margin-right: 2%;
 }
 
+/* Styling common footer*/
 #footer{
     display: block;
     margin-left: 10%;
@@ -210,7 +214,6 @@ h5{
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
-   /* padding-bottom: 5px;*/
     color: #414550;
     padding: 0px;
 }

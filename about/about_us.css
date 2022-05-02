@@ -1,0 +1,144 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #D1E2C4;
+    background-color: #D1E2C4;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #414550;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Created hovering abilities for navigation bar*/
+li a:hover:not(.active) {
+    background-color: #FFF3D9;
+}
+
+li a.active {
+    color: white;
+    background-color: #CD9E7D;
+}
+
+/* Slight tweaks to navigation bar*/
+#navbar{
+    padding-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#logo{
+    text-align: center;
+    color: #CD9E7D;
+    font-size: 250%;
+    font-family: fantasy;
+}
+
+/* General CSS */
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A9BD93;
+}
+
+h2{
+    font-family: fantasy;
+}
+
+p{
+    font-family: 'Franklin Gothic Thin', 'Arial Narrow', Arial, sans-serif;
+    color: #414550;
+    text-align: center;
+}
+
+img{
+    border-radius: 5%;
+}
+
+#salad_photo{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#whoweare{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#francescaphoto{
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#francescabio{
+    padding-bottom: 20px;
+}
+
+#anasofiaphoto{
+    float: left;
+    padding-right: 10px;
+}
+
+#whatwedo{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#whyweloveit{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#favphoto{
+    float:left;
+}
+
+/* Styling common footer*/
+#footer{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footer_logo{
+    color: #CD9E7D;
+}
+
+h5{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    color: #414550;
+    padding: 0px;
+}
+
+h4{
+    font-family: 'Franklin Gothic Thin', 'Arial Narrow', Arial, sans-serif;
+    color: #414550;
+}
+
+.footer_notes{
+    float: right;
+    margin-right: 7%;
+}
