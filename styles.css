@@ -35,9 +35,21 @@ li a.active {
 * {box-sizing: border-box;}
 
 #image_1 {
-  position: relative;
-  width: 30%;
+    position: relative;
+    width: 30%;
  /* max-width: 300px;*/
+}
+
+#image_2 {
+    position: relative;
+    width: 30%;
+   /* max-width: 300px;*/
+}
+
+#image_3 {
+    position: relative;
+    width: 30%;
+   /* max-width: 300px;*/
 }
 
 .image {
@@ -53,8 +65,6 @@ li a.active {
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
   width: 107%;
-  border-bottom-left-radius: 17%;
-  border-bottom-right-radius: 17%;
   transition: .5s ease;
   opacity:0;
   color: white;
@@ -64,8 +74,48 @@ li a.active {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 333%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.overlay3 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
 #image_1:hover .overlay {
-  opacity: 1;
+    opacity: 1;
+}
+
+#image_2:hover .overlay2 {
+    opacity: 1;
+}
+
+#image_3:hover .overlay2 {
+    opacity: 1;
 }
 
 /* General CSS */
@@ -73,6 +123,10 @@ li a.active {
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #A9BD93;
+}
+
+h2{
+    font-family: fantasy;
 }
 
 p{
@@ -148,19 +202,20 @@ img{
     color: #CD9E7D;
 }
 
-p2{
+h5{
     font-family: fantasy;
     font-size: 200%;
 }
 
-p3{
+h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 120%;
-    padding-bottom: 5px;
+    font-size: 100%;
+   /* padding-bottom: 5px;*/
     color: #414550;
+    padding: 0px;
 }
 
-p4{
+h4{
     font-family: 'Franklin Gothic Thin', 'Arial Narrow', Arial, sans-serif;
     color: #414550;
 }
