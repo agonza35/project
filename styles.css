@@ -119,6 +119,10 @@ img{
     border-radius: 5%;
 }
 
+a{
+    color: white;
+}
+
 /* Styling top logo*/
 #logo{
     text-align: center;
