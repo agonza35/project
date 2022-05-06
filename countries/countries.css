@@ -1,13 +1,73 @@
-
-h2{
+/* Styling for the Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #D1E2C4;
+    background-color: #D1E2C4;
     text-align: center;
-    font: italic;
-    padding-top: 5%;
 }
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: #414550;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Created hovering abilities for navigation bar*/
+li a:hover:not(.active) {
+    background-color: #FFF3D9;
+}
+
+li a.active {
+    color: white;
+    background-color: #CD9E7D;
+}
+
+/* Styling top logo*/
+#logo{
+    text-align: center;
+    color: #CD9E7D;
+    font-size: 250%;
+    font-family: fantasy;
+    margin: 49.8px 0px;
+}
+
+/* Slight tweaks to navigation bar*/
+#navbar{
+    padding-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*Styling for main page */
+
+
+h2.page-instructions{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #414550;
+    font-style: italic;
+    font-size: 250%;
+}
+
+
 #countries img{
     height: 400px;
     width: 400px;
+    border-radius: 10px;
 }
+
+/*Styling for each individual image */
 
 #italy{
     display: inline-block;
@@ -28,7 +88,7 @@ h2{
     padding: 3%;
 }
 
-#hungrary{
+#hungary{
     display: inline-block;
     padding: 3%;
 }
@@ -38,22 +98,68 @@ h2{
     padding: 3%;
 }
 
-h4{
+/* Aligns each row of images in center  */
+#row-1{
+    text-align: center;
+ }
+ #row-2{
+     text-align: center;
+ }
+ #row-3{
+     text-align: center;
+ }
+
+/*Styling for Headers and img text / links */ 
+
+h4#country-name {
     display: block;
 }
+
 .img-text{
     text-align: center;
-    border: 10px solid black;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color:#FFF3D9;
 }
 
-#row-1{
-   text-align: center;
-}
-#row-2{
-    text-align: center;
-}
-#row-3{
-    text-align: center;
+a:link {
+    text-decoration:  none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A9BD93;
 }
 
+a:visited{
+    text-decoration:  none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#CD9E7D;
+}
+
+
+/* Styling common footer*/
+#footer{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footer_logo{
+    color: #CD9E7D;
+    font-family: fantasy;
+}
+
+h5{
+    font-family: fantasy;
+    font-size: 200%;
+}
+
+h4{
+    font-family: 'Franklin Gothic Thin', 'Arial Narrow', Arial, sans-serif;
+    color: #414550;
+}
+
+.footer_notes{
+    float: right;
+    margin-right: 7%;
+}
 

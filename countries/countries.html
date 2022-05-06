@@ -1,61 +1,113 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <link type="text/css" rel="stylesheet" href="countries.css">  <!-- link to CSS --> 
     <title>Countries</title>
   </head> 
+
+  <!--Logo -->
   <body>
-    <h2 class="page-instructions">Select a Country</h2>
+    <div id="logo">
+        <h2>Food Abroad Blog</h2>
+    </div>
+  
+    <!-- Nav Bar goes here, need to make it uniform throughout all pages -->
+    <div id="navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/about.html">About Us</a></li>
+            <li><a class="active" href="../countries/countries.html">Food By Country</a></li>
+        </ul>
+    </div>
+  
+    <!--Page content -->
+    <div id="instructions-container">
+        <h2 class="page-instructions">Select a Country</h2>
+    </div>
+    <!--Div for countries -->
     <div id="countries">
         <div id="row-1">
             <div id="italy">
-                <img src="../images/italy.jpeg" alt="picture of colosseum">
-                    <a href="italy.html"></a>
+                <img src="../images/Italy/italy.jpeg" alt="picture of colosseum">
                 <div class="img-text">
-                    <h4>Italy</h4>
+                    <a href="italy.html">
+                        <h3 id="country-name"> Italy</h3>
+                    </a>
                 </div>
             </div>
             <div id="france">
-                <img src="../images/france.jpeg" alt="picture of eiffel tower">
-                    <a href="france.html"></a>
+                <img src="../images/France/france.jpeg" alt="picture of eiffel tower">
                 <div class="img-text">
-                    <h4>France</h4>
+                    <a href="france.html">
+                        <h3 id="country-name">France</h3>
+                    </a>
                 </div>
             </div>
         </div>
         <div id="row-2">
             <div id="greece">
-                <img src="../images/greece.jpg" alt="picture of Santorini greece">
-                    <a href="greece.html"></a>
+                <img src="../images/Greece/greece.jpg" alt="picture of Santorini greece">
                 <div class="img-text">
-                    <h4>Greece</h4>
+                    <a href="greece.html">
+                        <h3 id="country-name">Greece</h3>
+                    </a>
                 </div>
             </div>
             <div id="switzerland">
-                <img src="../images/switzerland.jpeg" alt="snowy mountain in Switzerland">
-                    <a></a>
+                <img src="../images/Switzerland/switzerland.jpeg" alt="snowy mountain in Switzerland">
                 <div class="img-text">
-                    <h4>Switzerland</h4>
+                    <a href="switzerland.html">
+                        <h3 id="country-name">Switzerland</h3>
+                    </a>
                 </div>
             </div>
         </div>
         <div id="row-3">
-            <div id="hungrary">
-                <img src="../images/hungrary.jpeg" alt="parliament building in budapest">
-                    <a href=""></a>
+            <div id="hungary">
+                <img src="../images/Hungary/hungary.jpeg" alt="parliament building in budapest">
                 <div class="img-text">
-                    <h4>Hungrary</h4>
+                    <a href="hungary.html">
+                        <h3 id="country-name">Hungary</h3>
+                    </a>
                 </div>
             </div>
             <div id="portugal">
-                <img src="../images/portugal.jpeg" alt="colorful buildings in portugal">
-                    <a></a>
+                <img src="../images/Portugal/portugal.jpeg" alt="colorful buildings in portugal">
                 <div class="img-text">
-                    <h4>Portugal</h4>
+                    <a href="portugal.html">
+                        <h3 id="country-name">Portugal</h3>
+                    </a>
                 </div>
             </div>
         </div>
+        <!--End of div for countries -->
     </div>
+
+    <!--Footer -->
+
+    <div id="footer">
+        <hr style="height:2px;border-width:0;color:black;background-color:black">
+  
+        <div class="footer_notes">
+            <h4>Social Media
+            <br>
+            Instagram: @foodabroadblog <br>
+            Facebook: @foodabroad2022
+            </h4>
+        </div>
+  
+        <div class="footer_notes">
+            <h4>Contact
+            <br>
+            Phone: +39 123 4567890 <br>
+            Email: foodabroadblog@gmail.com
+            </h4>
+        </div>
+  
+        <div>
+            <h2 id="footer_logo">Food Abroad Blog</h2>
+        </div>
+      </div>
+
   </body>
 </html>

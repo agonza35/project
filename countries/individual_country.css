@@ -58,7 +58,7 @@ h1{
     color:#CD9E7D;
 }
 
-/*Content for History */
+/*Styling for History Section*/
 
 .history{
     display: flex;
@@ -152,6 +152,7 @@ a{
 
 #footer_logo{
     color: #CD9E7D;
+    font-family: fantasy;
 }
 
 h5{
